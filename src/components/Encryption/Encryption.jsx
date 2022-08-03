@@ -39,8 +39,8 @@ function Encryption() {
   return (
     <div className='encryption-block'>
       <h2 className='enc-title'>
-        <span className='color'>Safe </span> 
         Encryptor
+        <span className='color-enc'> Pro</span> 
       </h2>
       
       <form method="post" action='#' onSubmit={e => req(e)} className='enc-form' autoComplete='off'>

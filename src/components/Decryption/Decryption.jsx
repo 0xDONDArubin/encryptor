@@ -26,15 +26,18 @@ function Decryption() {
 
     fetch(process.env.REACT_APP_DEC_URL, requestOptions)
       .then(response => response.text())
-      .then(result => setRes(result.substring(9).slice(0, -2)))
+      .then(result => {
+        const a = result.substring(9).slice(0, -2);
+        setRes(a.replace(/\\n/g, '\n'))
+      })
       .catch(error => console.log('error', error)); 
   }
 
   return (
     <div className='decryption-block'>
       <h2 className='dec-title'>
-        <span className='color'>Safe </span> 
         Decryptor
+        <span className='color-dec'> Pro</span> 
       </h2>
 
       <form method="post" action='#' onSubmit={e => req(e)} className='dec-form' autoComplete='off'>
