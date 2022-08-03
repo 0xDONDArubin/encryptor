@@ -9,20 +9,19 @@ import Footer from "../Footer/Footer";
 import "../App/App.css";
 
 
-
 export default function App() {
 
   return (
     <>
-    <Header/>
+      <Header/>
       <Particle/>
-        <Routes>
-            <Route exact path="/" element={<Encryption />}/>
-            <Route exact path="/encryption" element={<Encryption />}/>
-            <Route exact path="/decryption" element={<Decryption />}/>
-            <Route exact path="*" element={""}/>
-        </Routes>
-    <Footer />
+      <Routes>
+          <Route exact path="/" element={<Encryption />}/>
+          <Route exact path="/encryption" element={<Encryption />}/>
+          <Route exact path="/decryption" element={<Decryption />}/>
+          <Route exact path="*" element={""}/>
+      </Routes>
+      <Footer />
     </>
   );
 }

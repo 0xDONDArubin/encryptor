@@ -27,8 +27,9 @@ function Decryption() {
     fetch(process.env.REACT_APP_DEC_URL, requestOptions)
       .then(response => response.text())
       .then(result => {
-        const a = result.substring(9).slice(0, -2);
-        setRes(a.replace(/\\n/g, '\n'))
+        const isError = result.split('"')[5];
+        const formattedText = result.split('"')[3].replace(/\\n/g, '\n');
+        setRes(!isError ? formattedText : isError)
       })
       .catch(error => console.log('error', error)); 
   }
@@ -41,7 +42,7 @@ function Decryption() {
       </h2>
 
       <form method="post" action='#' onSubmit={e => req(e)} className='dec-form' autoComplete='off'>
-        <h1 className="key-block">Private key</h1>
+        <h1 className="key-block-dec">Private key</h1>
         <textarea 
           type="text"
           className='textarea-key-get' 
@@ -52,7 +53,7 @@ function Decryption() {
           required>
           </textarea>
         
-        <h1 className="key-block">Encrypted text</h1>
+        <h1 className="key-block-dec">Encrypted text</h1>
         <textarea 
           type="text"
           className='textarea-enc-text-get' 
@@ -64,7 +65,7 @@ function Decryption() {
         </textarea>
         <button className="dec-btn" type="submit"><span className='dec-btn-title'>Decrypt</span></button>
 
-        <h1 className="key-block">Decrypted text</h1>
+        <h1 className="key-block-dec">Decrypted text</h1>
         <textarea className='text-to-dec' id='textarea-completed-text-get' value={res} readOnly></textarea>
       </form>
     </div>

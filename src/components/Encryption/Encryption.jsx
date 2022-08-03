@@ -1,32 +1,35 @@
 import React, { useState } from 'react';
-import "./Encryption.css";
+import "./Encryption.css"; 
 
 function Encryption() {
   const [text, setText] = useState("");
   const [securityKey, setSecurityKey] = useState("");
   const [encryptedText, setEncryptedText] = useState("");
+  const error = "Invalid character entered";
 
   const req = (e) => {
     e.preventDefault();
 
-    var myHeaders = new Headers();
-    myHeaders.append("Content-Type", "application/json");
-
-    var raw = JSON.stringify({
-      "text": text
-    });
-
-    var requestOptions = {
-      method: 'POST',
-      headers: myHeaders,
-      body: raw,
-      redirect: 'follow'
-    };
-
-    fetch(process.env.REACT_APP_ENC_URL, requestOptions)
-      .then(response => response.text())
-      .then(result => getProps(result))
-      .catch(error => console.log('error', error)); 
+    if(!text.includes('"')){
+      var myHeaders = new Headers();
+      myHeaders.append("Content-Type", "application/json");
+  
+      var raw = JSON.stringify({
+        "text": text
+      });
+  
+      var requestOptions = {
+        method: 'POST',
+        headers: myHeaders,
+        body: raw,
+        redirect: 'follow'
+      };
+  
+      fetch(process.env.REACT_APP_ENC_URL, requestOptions)
+        .then(response => response.text())
+        .then(result => getProps(result))
+        .catch(error => console.log('error', error)); 
+    } 
   }
 
   const getProps = (result) => {
@@ -44,8 +47,10 @@ function Encryption() {
       </h2>
       
       <form method="post" action='#' onSubmit={e => req(e)} className='enc-form' autoComplete='off'>
-        <textarea 
-          type="text"
+        {
+          text.includes('"') ? <p className='color-error'>{error}</p> : null 
+        }
+        <textarea
           className='text-to-enc' 
           id='text-to-enc' 
           value={text}

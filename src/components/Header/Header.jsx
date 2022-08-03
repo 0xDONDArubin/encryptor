@@ -12,5 +12,3 @@ function Header() {
 }
 
 export default Header
-{/* <span className='header-title-name'>Encryption</span>
-<span className='header-title-name'>Decryption</span> */}
