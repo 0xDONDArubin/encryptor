@@ -14,7 +14,7 @@ export default function App() {
   return (
     <>
       <Header/>
-      <Particle/>
+      {/* <Particle/> */}
       <Routes>
           <Route exact path="/" element={<Encryption />}/>
           <Route exact path="/encryption" element={<Encryption />}/>

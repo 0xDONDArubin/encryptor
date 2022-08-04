@@ -1,0 +1,537 @@
+@media (max-width: 1000px) {
+    /* ENCTYPTION PAGE */
+    .header-title{
+        padding: 2% 8% 2% 8%;
+        font-size: 33px;
+    }
+
+    .enc-title{
+        font-size: 47px;
+    }
+
+    .color-error{
+        font-size: 18px;
+    }
+
+    .text-to-enc{
+        font-size: 20px;
+        padding: 3%;
+        max-height: 25vh;
+        height: 25vh;
+    }
+
+    .enc-btn{
+        margin-top: 4%;
+        font-size: 20px;
+    }
+
+    .key-block{
+        font-size: 25px;
+    }
+
+    .textarea-key-post{
+        max-height: 17vh;
+        height: 17vh;
+        font-size: 20px;
+        padding: 3%;
+    }
+
+    .textarea-enc-text-post{
+        font-size: 20px;
+        max-height: 45vh;
+        height: 45vh;
+        padding: 3%;
+    }
+
+    .footer-title{
+        font-size: 20px;
+    }
+
+    
+    /* DECRYPTION PAGE */
+    .dec-title{
+        font-size: 47px;
+    }
+
+    .key-block-dec{
+        font-size: 28px;
+        padding-top: 3%;
+    }
+}
+
+@media (max-width: 800px) {
+    /* ENCTYPTION PAGE */
+    .header-title{
+        padding: 2% 8% 2% 8%;
+        font-size: 30px;
+    }
+
+    .enc-title{
+        font-size: 45px;
+    }
+
+    .color-error{
+        font-size: 20px;
+        padding-bottom: 3%;
+    }
+
+    .text-to-enc{
+        font-size: 22px;
+    }
+
+    .enc-btn{
+        font-size: 20px;
+    }
+
+    .key-block{
+        font-size: 26px;
+        padding-top: 6%;
+    }
+
+    .textarea-key-post{
+        max-height: 15vh;
+        height: 15vh;
+        font-size: 22px;
+    }
+
+    .textarea-enc-text-post{
+        font-size: 22px;
+        max-height: 40vh;
+        height: 40vh;
+    }
+
+    .footer-title{
+        font-size: 16px;
+    }
+
+    /* DECRYPTION PAGE */
+    .dec-title{
+        font-size: 45px;
+    }
+
+    .key-block-dec{
+        font-size: 26px;
+    }
+
+    .dec-btn{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 650px) {
+    /* ENCTYPTION PAGE */
+    .header-title{
+        font-size: 30px;
+    }
+
+    .enc-title{
+        font-size: 40px;
+    }
+
+    .color-error{
+        font-size: 18px;
+    }
+
+    .text-to-enc{
+        font-size: 22px;
+    }
+
+    .enc-btn{
+        font-size: 20px;
+        margin-top: 7%;
+    }
+
+    .key-block{
+        font-size: 23px;
+        padding-top: 7%;
+    }
+
+    .textarea-key-post{
+        max-height: 22vh;
+        height: 22vh;
+        font-size: 22px;
+    }
+
+    .textarea-enc-text-post{
+        font-size: 22px;
+        max-height: 48vh;
+        height: 48vh;
+    }
+
+    .footer-title{
+        font-size: 15px;
+    }
+
+
+    /* DECRYPTION PAGE */
+    .dec-title{
+        font-size: 40px;
+    }
+
+    .key-block-dec{
+        font-size: 23px;
+    }
+
+    .dec-btn{
+        font-size: 20px;
+    }
+
+    .textarea-key-get{
+        font-size: 20px;
+        height: 15vh;
+    }
+
+    .textarea-enc-text-get{
+        height: 20vh;
+        font-size: 20px;
+    }
+
+    .text-to-dec{
+        font-size: 20px;
+        height: 20vh;
+    }
+}
+
+@media (max-width: 530px) {
+    /* ENCTYPTION PAGE */
+    .header-title{
+        font-size: 26px;
+        padding-top: 3%;
+    }
+
+    .enc-title{
+        font-size: 39px;
+        padding-top: 3%;
+        padding-bottom: 4%;
+    }
+
+    .color-error{
+        font-size: 15px;
+        padding-bottom: 3%;
+    }
+
+    .text-to-enc{
+        font-size: 20px;
+        padding: 5%;
+    }
+
+    .enc-btn{
+        font-size: 19px;
+        margin-top: 7%;
+    }
+
+    .key-block{
+        font-size: 21px;
+        padding-top: 10%;
+    }
+
+    .textarea-key-post{
+        padding: 5%;
+        max-height: 20vh;
+        height: 20vh;
+        font-size: 20px;
+    }
+
+    .textarea-enc-text-post{
+        font-size: 20px;
+        padding: 5%;
+        max-height: 45vh;
+        height: 45vh;
+    }
+
+    .footer{
+        padding: 30px 0 30px 0;
+    }
+
+    .footer-title{
+        font-size: 13px;
+    }
+
+
+
+    /* DECRYPTION PAGE */
+    .dec-title{
+        font-size: 39px;
+    }
+
+    .key-block-dec{
+        font-size: 21px;
+        padding-top: 7%;
+    }
+
+    .dec-btn{
+        font-size: 19px;
+    }
+
+    .textarea-key-get{
+        font-size: 20px;
+        height: 20vh;
+    }
+
+    .textarea-enc-text-get{
+        height: 25vh;
+        font-size: 20px;
+    }
+
+    .text-to-dec{
+        font-size: 20px;
+        height: 25vh;
+    }
+}
+
+@media (max-width: 460px) {
+    /* ENCTYPTION PAGE */
+    .header-title{
+        font-size: 22px;
+        padding-top: 4%;
+    }
+
+    .enc-title{
+        font-size: 30px;
+        padding-top: 3%;
+        padding-bottom: 4%;
+    }
+
+    .color-error{
+        font-size: 14px;
+        padding-bottom: 4%;
+    }
+
+    .text-to-enc{
+        font-size: 20px;
+        padding: 5%;
+    }
+
+    .enc-btn{
+        font-size: 18px;
+        margin-top: 8%;
+    }
+
+    .key-block{
+        font-size: 20px;
+        padding-top: 11%;
+    }
+
+    .textarea-key-post{
+        padding: 5%;
+        max-height: 20vh;
+        height: 20vh;
+        font-size: 20px;
+    }
+
+    .textarea-enc-text-post{
+        font-size: 20px;
+        padding: 5%;
+        max-height: 45vh;
+        height: 45vh;
+    }
+
+    .footer{
+        padding: 30px 0 30px 0;
+    }
+
+    .footer-title{
+        font-size: 11px;
+    }
+
+
+
+    /* DECRYPTION PAGE */
+    .dec-title{
+        font-size: 30px;
+        padding: 5% 0 0 0;
+    }
+
+    .key-block-dec{
+        font-size: 20px;
+        padding-top: 7%;
+    }
+
+    .dec-btn{
+        font-size: 18px;
+    }
+
+    .textarea-key-get{
+        font-size: 20px;
+        height: 20vh;
+    }
+
+    .textarea-enc-text-get{
+        height: 25vh;
+        font-size: 20px;
+    }
+
+    .text-to-dec{
+        font-size: 20px;
+        height: 25vh;
+    }
+}
+
+@media (max-width: 390px) {
+    /* ENCTYPTION PAGE */
+    .header-title{
+        font-size: 19px;
+        padding-top: 4%;
+    }
+
+    .enc-title{
+        font-size: 28px;
+        padding-top: 3%;
+        padding-bottom: 4%;
+    }
+
+
+    .text-to-enc{
+        font-size: 18px;
+        padding: 5%;
+    }
+
+    .enc-btn{
+        font-size: 16px;
+        margin-top: 8%;
+    }
+
+    .key-block{
+        font-size: 16px;
+        padding-top: 11%;
+    }
+
+    .textarea-key-post{
+        padding: 5%;
+        max-height: 20vh;
+        height: 20vh;
+        font-size: 18px;
+    }
+
+    .textarea-enc-text-post{
+        font-size: 18px;
+        padding: 5%;
+        max-height: 45vh;
+        height: 45vh;
+    }
+
+    .footer{
+        padding: 30px 0 30px 0;
+    }
+
+    .footer-title{
+        font-size: 11px;
+    }
+
+
+    /* DECRYPTION PAGE */
+    .dec-title{
+        font-size: 28px;
+        padding: 5% 0 0 0;
+    }
+
+    .key-block-dec{
+        font-size: 16px;
+        padding-top: 7%;
+    }
+
+    .dec-btn{
+        font-size: 16px;
+    }
+
+    .textarea-key-get{
+        font-size: 18px;
+        height: 25vh;
+    }
+
+    .textarea-enc-text-get{
+        height: 35vh;
+        font-size: 18px;
+    }
+
+    .text-to-dec{
+        font-size: 18px;
+        height: 35vh;
+    }
+}
+
+
+@media (max-width: 340px) {
+    /* ENCTYPTION PAGE */
+    .header-title{
+        font-size: 16px;
+        padding-top: 4%;
+    }
+
+    .enc-title{
+        font-size: 26px;
+        padding-top: 3%;
+        padding-bottom: 4%;
+    }
+
+
+    .text-to-enc{
+        font-size: 16px;
+        padding: 5%;
+    }
+
+    .enc-btn{
+        font-size: 14px;
+        margin-top: 8%;
+    }
+
+    .key-block{
+        font-size: 15px;
+        padding-top: 11%;
+    }
+
+    .textarea-key-post{
+        padding: 5%;
+        max-height: 20vh;
+        height: 20vh;
+        font-size: 16px;
+    }
+
+    .textarea-enc-text-post{
+        font-size: 16px;
+        padding: 5%;
+        max-height: 45vh;
+        height: 45vh;
+    }
+
+    .footer{
+        padding: 30px 0 30px 0;
+    }
+
+    .footer-title{
+        font-size: 9px;
+    }
+
+
+
+    /* DECRYPTION PAGE */
+    .dec-title{
+        font-size: 26px;
+        padding: 5% 0 0 0;
+    }
+
+    .key-block-dec{
+        font-size: 15px;
+        padding-top: 7%;
+    }
+
+    .dec-btn{
+        font-size: 14px;
+    }
+
+    .textarea-key-get{
+        font-size: 16px;
+        height: 25vh;
+    }
+
+    .textarea-enc-text-get{
+        height: 35vh;
+        font-size: 16px;
+    }
+
+    .text-to-dec{
+        font-size: 16px;
+        height: 30vh;
+    }
+}
+
